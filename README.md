@@ -17,7 +17,7 @@ create a covariance model using the program infernal.
 
   seq1 ATCG
 
-  =GC SS_cons (. -->secondary strucure plot denoted with ).
+  =GC SS_cons )..( -->secondary strucure plot denoted with ).
 
 
   //
@@ -26,3 +26,17 @@ create a covariance model using the program infernal.
 - search above ncbi built fasta file from genome.py and output table 'cmsearch --tblout results.tbl xx.cm xx.fasta > results.txt'
 
 compare_and_extract.py will extract the output results.tbl and take the sequences from every matched genome and provide a sequence logo plot to give a sense of the sequences which match a certain secondary structure within a genome. 
+
+### Requirements
+local installations of Biopython, clustalo, blast and infernal
+
+python libraries for:
+logomaker
+matplotlib
+os
+tkinter
+argparse
+pandas
+subprocess
+os
+tempfile
