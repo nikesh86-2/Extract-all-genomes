@@ -12,11 +12,11 @@ create a covariance model using the program infernal.
 
 - can supply multiple sequences
 - create a .sto file with format:
--   \# STOCKHOLM 1.0
--   seq1 ATCG
--   \#=GC SS_cons (. -->secondary strucure plot denoted with ).
+    \# STOCKHOLM 1.0
+    seq1 ATCG
+    =GC SS_cons (. -->secondary strucure plot denoted with ).
 
--   //
+    //
 - using bash example command might be 'cmbuild xx.cm seed_alignment.sto
 - calibrare model 'cmcalibrate xx.cm'
 - search above ncbi built fasta file from genome.py and output table 'cmsearch --tblout results.tbl xx.cm xx.fasta > results.txt'
