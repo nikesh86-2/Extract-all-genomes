@@ -49,7 +49,7 @@ with open("query.fasta", "w") as f:
 result = subprocess.run([
     "blastn",
     "-query", "query.fasta",
-    "-db", "hbv_db",
+    "-db", "hbv_db", # needs to be rewritten for user prompt
     "-outfmt", "6 sseqid sseq",
     "-perc_identity", "80",
     "-evalue", "0.001",
