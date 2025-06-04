@@ -40,3 +40,7 @@ pandas
 subprocess
 os
 tempfile
+
+
+#### Updates
+2025/06/04: genomes.py rewritten to enable user prompts for organisms and email.
